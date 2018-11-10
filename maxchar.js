@@ -4,10 +4,10 @@ var maxKey = '';
 for(var i = 0; i < x.length; i++)
 {
     var key = x[i];
-    if(!y[key]){
+    if( ! y[key]){
      y[key] = 0;
     }
-    y[key]++;
+    y[key] ++;
     if(maxKey == '' || y[key] > y[maxKey]){
         maxKey = key;
     }
